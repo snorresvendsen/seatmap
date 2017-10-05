@@ -5,9 +5,8 @@ A package for handling seat maps for events and venues.
 
 A venue is defined in a text file. Represented as a tree consisting of:
 
--- Rows - named in a string.
-
--- Seats - numbered from left or right, or right to left.
+- Rows - named in a string.
+- Seats - numbered from left or right, or right to left.
 
 See "venue.lisp" for example definition.
 
