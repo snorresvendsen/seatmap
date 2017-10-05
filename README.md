@@ -4,8 +4,11 @@ Build rudimentary text/html seat maps in Common Lisp.
 A package for handling seat maps for events and venues.
 
 A venue is defined in a text file. Represented as a tree consisting of:
+
 -- Rows - named in a string.
+
 -- Seats - numbered from left or right, or right to left.
+
 See "venue.lisp" for example definition.
 
 An event is a hash table mapped onto a venue. Its keys are symbols on the form
